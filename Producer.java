@@ -1,6 +1,6 @@
 public class Producer extends Thread {
 
-    Company c;
+    private Company c;
 
     Producer(Company c){
         this.c=c;

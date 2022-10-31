@@ -1,6 +1,6 @@
 public class Consumer extends Thread {
 
-    Company c;
+    private Company c;
     Consumer(Company c){
         this.c=c;
     }

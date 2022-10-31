@@ -1,5 +1,4 @@
 public class Main {
-
     public static void main(String[] args) {
         Company company=new Company();
         Producer producer=new Producer(company);
@@ -7,8 +6,6 @@ public class Main {
 
         producer.start();
         consumer.start();
-        
     }
 
-    
 }
