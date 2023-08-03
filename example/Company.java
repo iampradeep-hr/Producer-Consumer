@@ -1,9 +1,11 @@
+package example;
+
 class Company{
 
     int n;
     boolean flag=false;
-    //flag-false (Producer will produce)
-    //flag-true  (Consumer will consume)
+    //flag-false (example.Producer will produce)
+    //flag-true  (example.Consumer will consume)
     public synchronized void produce_item(int n){
         if(flag){
             try { wait(); } catch (Exception e) {}

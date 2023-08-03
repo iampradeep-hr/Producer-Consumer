@@ -1,3 +1,5 @@
+package example;
+
 public class Consumer extends Thread {
 
     private Company c;

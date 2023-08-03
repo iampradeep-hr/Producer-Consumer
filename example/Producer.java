@@ -1,3 +1,5 @@
+package example;
+
 public class Producer extends Thread {
 
     private Company c;
